@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stereodiscerning_gnn"
+version = "0.1.0"
+description = "Tetrahedral Chirality Stereodiscernment with Graph-Based ML"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "torch>=2.2.2",
+    "torch-geometric>=2.6.1",
+    "rdkit==2025.03.6",
+    "numpy",
+    "pandas",
+]
