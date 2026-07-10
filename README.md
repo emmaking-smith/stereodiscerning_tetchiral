@@ -50,7 +50,7 @@ This will save out the model predictions as ```predictions.csv```.
 
 ## Using the model for the Coding-Shy
 
-If you're still new to coding, please refer to our [User's Guide]() which has a step-by-step visual guide to running the model in Google Colab.
+If you're still new to coding, you can download and watch our 5-min video tutorial [here](User's%20Guide/Predictions_in_Colab_Movie.mp4) which is step-by-step guide to running the model in a Google Colab notebook. The associated .ipynb file is in the [User's Guide](User's%20Guide) directory.
 
 ## Citation
 
