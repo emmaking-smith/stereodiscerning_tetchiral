@@ -85,6 +85,11 @@ def main():
     logger = logger_setup(args.fold, save_dir)
 
     # Splitting into training, validation, and testing.
+    np.random.seed(args.random_seed)
+    idxs = np.array(df.index)
+    np.random.shuffle(idxs)
+    idxs = np.array_split(idxs, args.cv)
+
     test_idxs = idxs[args.fold]
     train_test_idxs = idxs.copy()
     del train_test_idxs[args.fold]
